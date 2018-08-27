@@ -7,7 +7,7 @@ https://www.npmjs.com/package/hbs
 nodemon server.js -e js,hbs
 
 Static public files:
-`
+```javascript
 app.get('/',
     (req,res) => {
         // res.send('<h1>Hello Express!</h1>')
@@ -22,7 +22,7 @@ app.get('/',
         )
     }
 )
-`
+```
 
 git instructions
 ===============================
