@@ -45,6 +45,7 @@ git add .gitignore
 git commit
 ------------------------------
 https://help.github.com/enterprise/2.14/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
 ls -al ~/.ssh  <-- check to see if you have a ssh key
 ssh-keygen -t rsa -b 4096 -C "gmail_email_address"
 
@@ -83,6 +84,7 @@ git commit -m 'Setup start script and heroku port'
 git push
 
 heroku create  <--only for the first time
+
 git push heroku  <-- publish site to heroku
 
 heroku open
