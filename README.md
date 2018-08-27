@@ -7,6 +7,7 @@ https://www.npmjs.com/package/hbs
 nodemon server.js -e js,hbs
 
 Static public files:
+<code>
 app.get('/',
     (req,res) => {
         // res.send('<h1>Hello Express!</h1>')
@@ -21,6 +22,7 @@ app.get('/',
         )
     }
 )
+</code>
 
 git instructions
 ===============================
@@ -80,7 +82,7 @@ git add .
 git commit -m 'Setup start script and heroku port'
 git push
 
-heroku create
-git push heroku
+heroku create  <--only for the first time
+git push heroku  <-- publish site to heroku
 
 heroku open
